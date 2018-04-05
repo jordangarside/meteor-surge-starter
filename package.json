@@ -1,0 +1,16 @@
+{
+  "name": "meteor-surge-starter",
+  "private": true,
+  "scripts": {
+    "deploy": "rm -rf ./dist && mkdir dist && meteor-build-client ./dist && cd dist && surge -p .",
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "meteor-node-stubs": "^0.3.2"
+  },
+  "devDependencies": {
+    "meteor-build-client": "^0.4.1",
+    "surge": "^0.20.1"
+  }
+}
