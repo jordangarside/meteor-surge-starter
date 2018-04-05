@@ -10,6 +10,14 @@
 meteor npm install
 ```
 
+## Develop
+
+```sh
+meteor
+```
+
+Go to [localhost:3000](http://localhost:3000/).
+
 ## Deploy
 
 ```sh
